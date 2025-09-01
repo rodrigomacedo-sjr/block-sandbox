@@ -40,7 +40,7 @@ This project is in active development, here is breakdown of the milestones and s
 
 ### Cleaner project
 
-- [ ] CMake build
+- [x] CMake build
 - [ ] "How to run" docs
 
 ---
