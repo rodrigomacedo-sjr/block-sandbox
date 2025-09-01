@@ -1,8 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/main.dir/src/sources/LUtil.cpp.o"
-  "CMakeFiles/main.dir/src/sources/LUtil.cpp.o.d"
-  "CMakeFiles/main.dir/src/sources/Ltexture.cpp.o"
-  "CMakeFiles/main.dir/src/sources/Ltexture.cpp.o.d"
+  "CMakeFiles/main.dir/src/sources/glad.c.o"
+  "CMakeFiles/main.dir/src/sources/glad.c.o.d"
   "CMakeFiles/main.dir/src/sources/main.cpp.o"
   "CMakeFiles/main.dir/src/sources/main.cpp.o.d"
   "main"
@@ -10,6 +8,6 @@ file(REMOVE_RECURSE
 )
 
 # Per-language clean rules from dependency scanning.
-foreach(lang CXX)
+foreach(lang C CXX)
   include(CMakeFiles/main.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

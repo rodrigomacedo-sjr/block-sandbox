@@ -1,5 +1,5 @@
-CMakeFiles/main.dir/src/sources/Ltexture.cpp.o: \
- /home/roger/code/mine_craft/src/sources/Ltexture.cpp \
+CMakeFiles/main.dir/src/sources/LTexture.cpp.o: \
+ /home/roger/code/mine_craft/src/sources/LTexture.cpp \
  /usr/include/stdc-predef.h \
  /home/roger/code/mine_craft/src/sources/../headers/LTexture.h \
  /home/roger/code/mine_craft/src/sources/../headers/LOpenGL.h \

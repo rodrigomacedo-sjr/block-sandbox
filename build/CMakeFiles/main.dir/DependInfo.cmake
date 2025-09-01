@@ -8,8 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/roger/code/mine_craft/src/sources/LUtil.cpp" "CMakeFiles/main.dir/src/sources/LUtil.cpp.o" "gcc" "CMakeFiles/main.dir/src/sources/LUtil.cpp.o.d"
-  "/home/roger/code/mine_craft/src/sources/Ltexture.cpp" "CMakeFiles/main.dir/src/sources/Ltexture.cpp.o" "gcc" "CMakeFiles/main.dir/src/sources/Ltexture.cpp.o.d"
+  "/home/roger/code/mine_craft/src/sources/glad.c" "CMakeFiles/main.dir/src/sources/glad.c.o" "gcc" "CMakeFiles/main.dir/src/sources/glad.c.o.d"
   "/home/roger/code/mine_craft/src/sources/main.cpp" "CMakeFiles/main.dir/src/sources/main.cpp.o" "gcc" "CMakeFiles/main.dir/src/sources/main.cpp.o.d"
   )
 

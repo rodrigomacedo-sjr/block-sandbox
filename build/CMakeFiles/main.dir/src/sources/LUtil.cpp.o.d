@@ -5,7 +5,7 @@ CMakeFiles/main.dir/src/sources/LUtil.cpp.o: \
  /home/roger/code/mine_craft/src/sources/../headers/LOpenGL.h \
  /usr/include/GL/freeglut.h /usr/include/GL/freeglut_std.h \
  /usr/include/GL/gl.h /usr/include/GL/glext.h \
- /usr/include/KHR/khrplatform.h \
+ /home/roger/code/mine_craft/src/headers/KHR/khrplatform.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \

@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.10)
 
-# Define the project name, version, and language
-project(block_sandbox VERSION 1.0 LANGUAGES CXX)
+# Define the project name, version, and languages
+project(block_sandbox VERSION 1.0 LANGUAGES CXX C)
 
 # C++ version
 set(CMAKE_CXX_STANDARD 20)
@@ -11,7 +11,10 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(EXECUTABLE_NAME main)
 
 # Find all .cpp files in src/
-file(GLOB SOURCES "src/sources/*.cpp")
+file(GLOB SOURCES 
+"src/sources/*.cpp"
+"src/sources/glad.c"
+)
 
 # Create executable
 add_executable(${EXECUTABLE_NAME} ${SOURCES})
@@ -24,8 +27,8 @@ target_include_directories(${EXECUTABLE_NAME} PUBLIC src/headers)
 
 # Find needed libraries
 find_package(OpenGL REQUIRED)
-find_package(GLUT REQUIRED)
+find_package(glfw3 REQUIRED)
 
 # Link found libraries
-target_link_libraries(${EXECUTABLE_NAME} PUBLIC OpenGL::GL OpenGL::GLU GLUT::GLUT)
+target_link_libraries(${EXECUTABLE_NAME} PUBLIC OpenGL::GL glfw)
 

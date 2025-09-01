@@ -129,53 +129,29 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
-src/sources/LUtil.o: src/sources/LUtil.cpp.o
-.PHONY : src/sources/LUtil.o
+src/sources/glad.o: src/sources/glad.c.o
+.PHONY : src/sources/glad.o
 
 # target to build an object file
-src/sources/LUtil.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/sources/LUtil.cpp.o
-.PHONY : src/sources/LUtil.cpp.o
+src/sources/glad.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/sources/glad.c.o
+.PHONY : src/sources/glad.c.o
 
-src/sources/LUtil.i: src/sources/LUtil.cpp.i
-.PHONY : src/sources/LUtil.i
-
-# target to preprocess a source file
-src/sources/LUtil.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/sources/LUtil.cpp.i
-.PHONY : src/sources/LUtil.cpp.i
-
-src/sources/LUtil.s: src/sources/LUtil.cpp.s
-.PHONY : src/sources/LUtil.s
-
-# target to generate assembly for a file
-src/sources/LUtil.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/sources/LUtil.cpp.s
-.PHONY : src/sources/LUtil.cpp.s
-
-src/sources/Ltexture.o: src/sources/Ltexture.cpp.o
-.PHONY : src/sources/Ltexture.o
-
-# target to build an object file
-src/sources/Ltexture.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/sources/Ltexture.cpp.o
-.PHONY : src/sources/Ltexture.cpp.o
-
-src/sources/Ltexture.i: src/sources/Ltexture.cpp.i
-.PHONY : src/sources/Ltexture.i
+src/sources/glad.i: src/sources/glad.c.i
+.PHONY : src/sources/glad.i
 
 # target to preprocess a source file
-src/sources/Ltexture.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/sources/Ltexture.cpp.i
-.PHONY : src/sources/Ltexture.cpp.i
+src/sources/glad.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/sources/glad.c.i
+.PHONY : src/sources/glad.c.i
 
-src/sources/Ltexture.s: src/sources/Ltexture.cpp.s
-.PHONY : src/sources/Ltexture.s
+src/sources/glad.s: src/sources/glad.c.s
+.PHONY : src/sources/glad.s
 
 # target to generate assembly for a file
-src/sources/Ltexture.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/sources/Ltexture.cpp.s
-.PHONY : src/sources/Ltexture.cpp.s
+src/sources/glad.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/sources/glad.c.s
+.PHONY : src/sources/glad.c.s
 
 src/sources/main.o: src/sources/main.cpp.o
 .PHONY : src/sources/main.o
@@ -210,12 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... main"
-	@echo "... src/sources/LUtil.o"
-	@echo "... src/sources/LUtil.i"
-	@echo "... src/sources/LUtil.s"
-	@echo "... src/sources/Ltexture.o"
-	@echo "... src/sources/Ltexture.i"
-	@echo "... src/sources/Ltexture.s"
+	@echo "... src/sources/glad.o"
+	@echo "... src/sources/glad.i"
+	@echo "... src/sources/glad.s"
 	@echo "... src/sources/main.o"
 	@echo "... src/sources/main.i"
 	@echo "... src/sources/main.s"
