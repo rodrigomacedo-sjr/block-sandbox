@@ -38,11 +38,16 @@ This project is in active development, here is breakdown of the milestones and s
 - [ ] Atmospheric fog
 - [ ] Implement sun shadows
 
+### Cleaner project
+
+- [ ] CMake build
+- [ ] "How to run" docs
+
 ---
 
 ## Prerequisites
 
-Git, Cmake, C++20, OpenGL 4.6
+Git, CMake, C++20, OpenGL 4.6
 
 ---
 
