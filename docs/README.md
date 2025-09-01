@@ -47,5 +47,5 @@ Git, Cmake, C++20, OpenGL 4.6
 ---
 
 ## License
-This project is licensed under the MIT License. See the [`LICENSE`](docs/LICENSE) file for details.
+This project is licensed under the MIT License. See the [`LICENSE`](LICENSE) file for details.
 
