@@ -3,4 +3,6 @@
 [I programmed Minecraft from scratch... again.](https://www.youtube.com/watch?v=9f7Hu1ZNYT8)
 [C++ reference](https://en.cppreference.com/w/cpp.html)
 [hello_opengl](https://lazyfoo.net/tutorials/OpenGL/01_hello_opengl/linux/cli/index.php)
+[learnopengl/Camera](https://learnopengl.com/Getting-started/Camera)
+[CMake tutorial](https://cmake.org/cmake/help/latest/guide/tutorial/index.html)
 

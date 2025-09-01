@@ -1,0 +1,3 @@
+/home/roger/code/mine_craft/build/CMakeFiles/main.dir
+/home/roger/code/mine_craft/build/CMakeFiles/edit_cache.dir
+/home/roger/code/mine_craft/build/CMakeFiles/rebuild_cache.dir

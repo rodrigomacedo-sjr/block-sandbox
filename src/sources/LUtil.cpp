@@ -1,4 +1,4 @@
-#include "LUtil.h"
+#include "../headers/LUtil.h"
 #include <GL/freeglut_std.h>
 
 bool initGL() {
