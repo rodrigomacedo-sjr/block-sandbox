@@ -12,7 +12,7 @@ This project is in active development, here is breakdown of the milestones and s
 
 ### Core rendering
 
-- [ ] Render a simple window
+- [x] Render a simple window
 - [ ] Implement 3D camera and navigation
 - [ ] Render a textured 3D cube
 - [ ] Render a chunk of many cubes
