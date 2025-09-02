@@ -10,11 +10,8 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 # final executable name
 set(EXECUTABLE_NAME main)
 
-# Find all .cpp files in src/
-file(GLOB SOURCES 
-"src/sources/*.cpp"
-"src/sources/glad.c"
-)
+# Find all files in src/
+file(GLOB SOURCES "src/sources/*")
 
 # Define the path to your resources
 set(RESOURCE_DIR "${CMAKE_SOURCE_DIR}/src/resources")
