@@ -177,6 +177,30 @@ src/sources/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/sources/main.cpp.s
 .PHONY : src/sources/main.cpp.s
 
+src/sources/shader_class.o: src/sources/shader_class.cpp.o
+.PHONY : src/sources/shader_class.o
+
+# target to build an object file
+src/sources/shader_class.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/sources/shader_class.cpp.o
+.PHONY : src/sources/shader_class.cpp.o
+
+src/sources/shader_class.i: src/sources/shader_class.cpp.i
+.PHONY : src/sources/shader_class.i
+
+# target to preprocess a source file
+src/sources/shader_class.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/sources/shader_class.cpp.i
+.PHONY : src/sources/shader_class.cpp.i
+
+src/sources/shader_class.s: src/sources/shader_class.cpp.s
+.PHONY : src/sources/shader_class.s
+
+# target to generate assembly for a file
+src/sources/shader_class.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/sources/shader_class.cpp.s
+.PHONY : src/sources/shader_class.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -192,6 +216,9 @@ help:
 	@echo "... src/sources/main.o"
 	@echo "... src/sources/main.i"
 	@echo "... src/sources/main.s"
+	@echo "... src/sources/shader_class.o"
+	@echo "... src/sources/shader_class.i"
+	@echo "... src/sources/shader_class.s"
 .PHONY : help
 
 

@@ -16,6 +16,12 @@ file(GLOB SOURCES
 "src/sources/glad.c"
 )
 
+# Define the path to your resources
+set(RESOURCE_DIR "${CMAKE_SOURCE_DIR}/src/resources")
+
+# Copy the shaders folder to your build directory
+file(COPY "src/resources/shaders" DESTINATION "${CMAKE_BINARY_DIR}")
+
 # Create executable
 add_executable(${EXECUTABLE_NAME} ${SOURCES})
 

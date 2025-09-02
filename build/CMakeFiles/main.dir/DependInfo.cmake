@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/roger/code/mine_craft/src/sources/glad.c" "CMakeFiles/main.dir/src/sources/glad.c.o" "gcc" "CMakeFiles/main.dir/src/sources/glad.c.o.d"
   "/home/roger/code/mine_craft/src/sources/main.cpp" "CMakeFiles/main.dir/src/sources/main.cpp.o" "gcc" "CMakeFiles/main.dir/src/sources/main.cpp.o.d"
+  "/home/roger/code/mine_craft/src/sources/shader_class.cpp" "CMakeFiles/main.dir/src/sources/shader_class.cpp.o" "gcc" "CMakeFiles/main.dir/src/sources/shader_class.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
