@@ -129,6 +129,30 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
+src/sources/Camera.o: src/sources/Camera.cpp.o
+.PHONY : src/sources/Camera.o
+
+# target to build an object file
+src/sources/Camera.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/sources/Camera.cpp.o
+.PHONY : src/sources/Camera.cpp.o
+
+src/sources/Camera.i: src/sources/Camera.cpp.i
+.PHONY : src/sources/Camera.i
+
+# target to preprocess a source file
+src/sources/Camera.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/sources/Camera.cpp.i
+.PHONY : src/sources/Camera.cpp.i
+
+src/sources/Camera.s: src/sources/Camera.cpp.s
+.PHONY : src/sources/Camera.s
+
+# target to generate assembly for a file
+src/sources/Camera.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/sources/Camera.cpp.s
+.PHONY : src/sources/Camera.cpp.s
+
 src/sources/Shader.o: src/sources/Shader.cpp.o
 .PHONY : src/sources/Shader.o
 
@@ -234,6 +258,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... main"
+	@echo "... src/sources/Camera.o"
+	@echo "... src/sources/Camera.i"
+	@echo "... src/sources/Camera.s"
 	@echo "... src/sources/Shader.o"
 	@echo "... src/sources/Shader.i"
 	@echo "... src/sources/Shader.s"

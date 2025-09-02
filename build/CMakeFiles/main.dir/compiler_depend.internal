@@ -464,6 +464,9 @@ CMakeFiles/main.dir/src/sources/glad.c.o
 CMakeFiles/main.dir/src/sources/main.cpp.o
  /home/roger/code/mine_craft/src/sources/main.cpp
  /home/roger/code/mine_craft/src/headers/KHR/khrplatform.h
+ /home/roger/code/mine_craft/src/headers/Camera.hpp
+ /home/roger/code/mine_craft/src/headers/Shader.hpp
+ /home/roger/code/mine_craft/src/headers/glad/glad.h
  /home/roger/code/mine_craft/src/headers/glm/detail/type_mat2x3.hpp
  /home/roger/code/mine_craft/src/headers/glm/detail/type_mat2x3.inl
  /home/roger/code/mine_craft/src/headers/glm/detail/type_mat2x4.hpp
@@ -597,15 +600,6 @@ CMakeFiles/main.dir/src/sources/main.cpp.o
  /home/roger/code/mine_craft/src/headers/glm/detail/type_half.inl
  /home/roger/code/mine_craft/src/headers/glm/fwd.hpp
  /home/roger/code/mine_craft/src/headers/glm/glm.hpp
- /home/roger/code/mine_craft/src/headers/glm/integer.hpp
- /home/roger/code/mine_craft/src/headers/glm/mat2x2.hpp
- /home/roger/code/mine_craft/src/headers/glm/packing.hpp
- /home/roger/code/mine_craft/src/headers/glm/trigonometric.hpp
- /home/roger/code/mine_craft/src/headers/glm/vec2.hpp
- /home/roger/code/mine_craft/src/headers/glm/vec3.hpp
- /home/roger/code/mine_craft/src/headers/glm/vec4.hpp
- /home/roger/code/mine_craft/src/headers/Shader.hpp
- /home/roger/code/mine_craft/src/headers/glad/glad.h
  /home/roger/code/mine_craft/src/headers/glm/detail/setup.hpp
  /home/roger/code/mine_craft/src/headers/glm/ext/scalar_constants.hpp
  /home/roger/code/mine_craft/src/headers/glm/ext/scalar_constants.inl
@@ -657,6 +651,13 @@ CMakeFiles/main.dir/src/sources/main.cpp.o
  /home/roger/code/mine_craft/src/headers/glm/gtc/matrix_transform.inl
  /home/roger/code/mine_craft/src/headers/glm/gtc/type_ptr.hpp
  /home/roger/code/mine_craft/src/headers/glm/gtc/type_ptr.inl
+ /home/roger/code/mine_craft/src/headers/glm/integer.hpp
+ /home/roger/code/mine_craft/src/headers/glm/mat2x2.hpp
+ /home/roger/code/mine_craft/src/headers/glm/packing.hpp
+ /home/roger/code/mine_craft/src/headers/glm/trigonometric.hpp
+ /home/roger/code/mine_craft/src/headers/glm/vec2.hpp
+ /home/roger/code/mine_craft/src/headers/glm/vec3.hpp
+ /home/roger/code/mine_craft/src/headers/glm/vec4.hpp
  /home/roger/code/mine_craft/src/headers/stb_image.h
  /usr/include/GL/gl.h
  /usr/include/GLFW/glfw3.h
