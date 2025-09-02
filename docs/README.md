@@ -15,7 +15,7 @@ This project is in active development, here is breakdown of the milestones and s
 - [x] Render a simple window
 - [x] Render a textured 2D cube
 - [x] Render a textured 3D cube
-- [ ] Implement 3D camera and navigation
+- [x] Implement 3D camera and navigation
 - [ ] Render a chunk of many cubes
 - [ ] Optimize rendering to only draw visible faces
 - [ ] Infinite world generation with chunks
