@@ -4,7 +4,6 @@
 #include <iostream>
 #include <sstream>
 
-// Constructor
 Shader::Shader(const char *vertexPath, const char *fragmentPath) {
 
   // 1. retrieve the vertex/fragment source code from filePath
@@ -12,6 +11,7 @@ Shader::Shader(const char *vertexPath, const char *fragmentPath) {
   std::string fragmentCode;
   std::ifstream vShaderFile;
   std::ifstream fShaderFile;
+
   // ensure ifstream objects can throw exceptions:
   vShaderFile.exceptions(std::ifstream::failbit | std::ifstream::badbit);
   fShaderFile.exceptions(std::ifstream::failbit | std::ifstream::badbit);
@@ -20,12 +20,15 @@ Shader::Shader(const char *vertexPath, const char *fragmentPath) {
     vShaderFile.open(vertexPath);
     fShaderFile.open(fragmentPath);
     std::stringstream vShaderStream, fShaderStream;
+
     // read file's buffer contents into streams
     vShaderStream << vShaderFile.rdbuf();
     fShaderStream << fShaderFile.rdbuf();
+
     // close file handlers
     vShaderFile.close();
     fShaderFile.close();
+
     // convert stream into string
     vertexCode = vShaderStream.str();
     fragmentCode = fShaderStream.str();
@@ -59,10 +62,10 @@ Shader::Shader(const char *vertexPath, const char *fragmentPath) {
   glDeleteShader(fragment);
 }
 
-// Activate the shader
+// activate the shader
 void Shader::use() { glUseProgram(ID); }
 
-// Utility uniform functions
+// utility uniform functions
 void Shader::setBool(const std::string &name, bool value) const {
   glUniform1i(glGetUniformLocation(ID, name.c_str()), (int)value);
 }
@@ -115,7 +118,7 @@ void Shader::setMat4(const std::string &name, const glm::mat4 &mat) const {
                      &mat[0][0]);
 }
 
-// Utility function to check compilation/linking errors
+// utility function to check compilation/linking errors
 void Shader::checkCompileErrors(unsigned int shader, std::string type) {
   int success;
   char infoLog[1024];
