@@ -1,7 +1,7 @@
-CMakeFiles/main.dir/src/sources/shader_class.cpp.o: \
- /home/roger/code/mine_craft/src/sources/shader_class.cpp \
+CMakeFiles/main.dir/src/sources/Shader.cpp.o: \
+ /home/roger/code/mine_craft/src/sources/Shader.cpp \
  /usr/include/stdc-predef.h \
- /home/roger/code/mine_craft/src/sources/../headers/shader_class.hpp \
+ /home/roger/code/mine_craft/src/sources/../headers/Shader.hpp \
  /home/roger/code/mine_craft/src/sources/../headers/../headers/glm/glm.hpp \
  /home/roger/code/mine_craft/src/sources/../headers/../headers/glm/detail/_fixes.hpp \
  /usr/include/c++/13/cmath /usr/include/c++/13/bits/requires_hosted.h \

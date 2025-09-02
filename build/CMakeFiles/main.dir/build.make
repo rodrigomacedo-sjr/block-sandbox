@@ -69,10 +69,24 @@ include CMakeFiles/main.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/main.dir/flags.make
 
+CMakeFiles/main.dir/src/sources/Shader.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/sources/Shader.cpp.o: /home/roger/code/mine_craft/src/sources/Shader.cpp
+CMakeFiles/main.dir/src/sources/Shader.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/roger/code/mine_craft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/src/sources/Shader.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/sources/Shader.cpp.o -MF CMakeFiles/main.dir/src/sources/Shader.cpp.o.d -o CMakeFiles/main.dir/src/sources/Shader.cpp.o -c /home/roger/code/mine_craft/src/sources/Shader.cpp
+
+CMakeFiles/main.dir/src/sources/Shader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/sources/Shader.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/roger/code/mine_craft/src/sources/Shader.cpp > CMakeFiles/main.dir/src/sources/Shader.cpp.i
+
+CMakeFiles/main.dir/src/sources/Shader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/sources/Shader.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/roger/code/mine_craft/src/sources/Shader.cpp -o CMakeFiles/main.dir/src/sources/Shader.cpp.s
+
 CMakeFiles/main.dir/src/sources/glad.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/sources/glad.c.o: /home/roger/code/mine_craft/src/sources/glad.c
 CMakeFiles/main.dir/src/sources/glad.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/roger/code/mine_craft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/main.dir/src/sources/glad.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/roger/code/mine_craft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/main.dir/src/sources/glad.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/sources/glad.c.o -MF CMakeFiles/main.dir/src/sources/glad.c.o.d -o CMakeFiles/main.dir/src/sources/glad.c.o -c /home/roger/code/mine_craft/src/sources/glad.c
 
 CMakeFiles/main.dir/src/sources/glad.c.i: cmake_force
@@ -86,7 +100,7 @@ CMakeFiles/main.dir/src/sources/glad.c.s: cmake_force
 CMakeFiles/main.dir/src/sources/main.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/sources/main.cpp.o: /home/roger/code/mine_craft/src/sources/main.cpp
 CMakeFiles/main.dir/src/sources/main.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/roger/code/mine_craft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/src/sources/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/roger/code/mine_craft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/src/sources/main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/sources/main.cpp.o -MF CMakeFiles/main.dir/src/sources/main.cpp.o.d -o CMakeFiles/main.dir/src/sources/main.cpp.o -c /home/roger/code/mine_craft/src/sources/main.cpp
 
 CMakeFiles/main.dir/src/sources/main.cpp.i: cmake_force
@@ -96,20 +110,6 @@ CMakeFiles/main.dir/src/sources/main.cpp.i: cmake_force
 CMakeFiles/main.dir/src/sources/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/sources/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/roger/code/mine_craft/src/sources/main.cpp -o CMakeFiles/main.dir/src/sources/main.cpp.s
-
-CMakeFiles/main.dir/src/sources/shader_class.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/src/sources/shader_class.cpp.o: /home/roger/code/mine_craft/src/sources/shader_class.cpp
-CMakeFiles/main.dir/src/sources/shader_class.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/roger/code/mine_craft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/src/sources/shader_class.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/sources/shader_class.cpp.o -MF CMakeFiles/main.dir/src/sources/shader_class.cpp.o.d -o CMakeFiles/main.dir/src/sources/shader_class.cpp.o -c /home/roger/code/mine_craft/src/sources/shader_class.cpp
-
-CMakeFiles/main.dir/src/sources/shader_class.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/sources/shader_class.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/roger/code/mine_craft/src/sources/shader_class.cpp > CMakeFiles/main.dir/src/sources/shader_class.cpp.i
-
-CMakeFiles/main.dir/src/sources/shader_class.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/sources/shader_class.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/roger/code/mine_craft/src/sources/shader_class.cpp -o CMakeFiles/main.dir/src/sources/shader_class.cpp.s
 
 CMakeFiles/main.dir/src/sources/stb.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/sources/stb.cpp.o: /home/roger/code/mine_craft/src/sources/stb.cpp
@@ -127,17 +127,17 @@ CMakeFiles/main.dir/src/sources/stb.cpp.s: cmake_force
 
 # Object files for target main
 main_OBJECTS = \
+"CMakeFiles/main.dir/src/sources/Shader.cpp.o" \
 "CMakeFiles/main.dir/src/sources/glad.c.o" \
 "CMakeFiles/main.dir/src/sources/main.cpp.o" \
-"CMakeFiles/main.dir/src/sources/shader_class.cpp.o" \
 "CMakeFiles/main.dir/src/sources/stb.cpp.o"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
 
+main: CMakeFiles/main.dir/src/sources/Shader.cpp.o
 main: CMakeFiles/main.dir/src/sources/glad.c.o
 main: CMakeFiles/main.dir/src/sources/main.cpp.o
-main: CMakeFiles/main.dir/src/sources/shader_class.cpp.o
 main: CMakeFiles/main.dir/src/sources/stb.cpp.o
 main: CMakeFiles/main.dir/build.make
 main: /usr/lib/x86_64-linux-gnu/libGL.so

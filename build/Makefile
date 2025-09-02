@@ -129,6 +129,30 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
+src/sources/Shader.o: src/sources/Shader.cpp.o
+.PHONY : src/sources/Shader.o
+
+# target to build an object file
+src/sources/Shader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/sources/Shader.cpp.o
+.PHONY : src/sources/Shader.cpp.o
+
+src/sources/Shader.i: src/sources/Shader.cpp.i
+.PHONY : src/sources/Shader.i
+
+# target to preprocess a source file
+src/sources/Shader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/sources/Shader.cpp.i
+.PHONY : src/sources/Shader.cpp.i
+
+src/sources/Shader.s: src/sources/Shader.cpp.s
+.PHONY : src/sources/Shader.s
+
+# target to generate assembly for a file
+src/sources/Shader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/sources/Shader.cpp.s
+.PHONY : src/sources/Shader.cpp.s
+
 src/sources/glad.o: src/sources/glad.c.o
 .PHONY : src/sources/glad.o
 
@@ -177,30 +201,6 @@ src/sources/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/sources/main.cpp.s
 .PHONY : src/sources/main.cpp.s
 
-src/sources/shader_class.o: src/sources/shader_class.cpp.o
-.PHONY : src/sources/shader_class.o
-
-# target to build an object file
-src/sources/shader_class.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/sources/shader_class.cpp.o
-.PHONY : src/sources/shader_class.cpp.o
-
-src/sources/shader_class.i: src/sources/shader_class.cpp.i
-.PHONY : src/sources/shader_class.i
-
-# target to preprocess a source file
-src/sources/shader_class.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/sources/shader_class.cpp.i
-.PHONY : src/sources/shader_class.cpp.i
-
-src/sources/shader_class.s: src/sources/shader_class.cpp.s
-.PHONY : src/sources/shader_class.s
-
-# target to generate assembly for a file
-src/sources/shader_class.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/sources/shader_class.cpp.s
-.PHONY : src/sources/shader_class.cpp.s
-
 src/sources/stb.o: src/sources/stb.cpp.o
 .PHONY : src/sources/stb.o
 
@@ -234,15 +234,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... main"
+	@echo "... src/sources/Shader.o"
+	@echo "... src/sources/Shader.i"
+	@echo "... src/sources/Shader.s"
 	@echo "... src/sources/glad.o"
 	@echo "... src/sources/glad.i"
 	@echo "... src/sources/glad.s"
 	@echo "... src/sources/main.o"
 	@echo "... src/sources/main.i"
 	@echo "... src/sources/main.s"
-	@echo "... src/sources/shader_class.o"
-	@echo "... src/sources/shader_class.i"
-	@echo "... src/sources/shader_class.s"
 	@echo "... src/sources/stb.o"
 	@echo "... src/sources/stb.i"
 	@echo "... src/sources/stb.s"

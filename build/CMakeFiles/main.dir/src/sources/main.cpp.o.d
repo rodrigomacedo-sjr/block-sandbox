@@ -65,7 +65,7 @@ CMakeFiles/main.dir/src/sources/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
  /usr/include/c++/13/bits/std_abs.h /usr/include/GL/gl.h \
  /usr/include/GLFW/glfw3.h \
- /home/roger/code/mine_craft/src/sources/../headers/shader_class.hpp \
+ /home/roger/code/mine_craft/src/sources/../headers/Shader.hpp \
  /home/roger/code/mine_craft/src/sources/../headers/../headers/glm/glm.hpp \
  /home/roger/code/mine_craft/src/sources/../headers/../headers/glm/detail/_fixes.hpp \
  /usr/include/c++/13/cmath /usr/include/c++/13/bits/requires_hosted.h \
@@ -393,4 +393,8 @@ CMakeFiles/main.dir/src/sources/main.cpp.o: \
  /usr/include/c++/13/bits/locale_facets.tcc \
  /usr/include/c++/13/bits/basic_ios.tcc \
  /usr/include/c++/13/bits/ostream.tcc /usr/include/c++/13/istream \
- /usr/include/c++/13/bits/istream.tcc
+ /usr/include/c++/13/bits/istream.tcc /usr/include/c++/13/vector \
+ /usr/include/c++/13/bits/stl_uninitialized.h \
+ /usr/include/c++/13/bits/stl_vector.h \
+ /usr/include/c++/13/bits/stl_bvector.h \
+ /usr/include/c++/13/bits/vector.tcc
