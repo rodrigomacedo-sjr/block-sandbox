@@ -123,10 +123,10 @@ int main() {
 
   // TODO: improve this
   // load and create a texture
-  unsigned int texture;
+  unsigned int dirt_texture;
 
-  glGenTextures(1, &texture);
-  glBindTexture(GL_TEXTURE_2D, texture);
+  glGenTextures(1, &dirt_texture);
+  glBindTexture(GL_TEXTURE_2D, dirt_texture);
   // set the texture wrapping parameters
   glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_REPEAT);
   // set texture filtering parameters
@@ -150,8 +150,8 @@ int main() {
 
   // tell opengl for each sampler to which texture unit it belongs to
   shader.use();
-  glUniform1i(glGetUniformLocation(shader.ID, "texture"), 0);
-  shader.setInt("texture", 0);
+  glUniform1i(glGetUniformLocation(shader.ID, "dirt_texture"), 0);
+  shader.setInt("dirt_texture", 0);
 
   // render loop
   while (!glfwWindowShouldClose(window)) {
@@ -168,7 +168,7 @@ int main() {
 
     // bind texture on corresponding texture unit
     glActiveTexture(GL_TEXTURE0);
-    glBindTexture(GL_TEXTURE_2D, texture);
+    glBindTexture(GL_TEXTURE_2D, dirt_texture);
 
     // render container
     shader.use();
