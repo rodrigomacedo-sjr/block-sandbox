@@ -2,6 +2,8 @@
 
 Inspired by minecraft, built from scratch using C++ and OpenGL. The goal of the project is deepen my understanding of C++ practices and graphics programing.
 
+![Simple gif showing a 16x16 grid of dirt blocks and the flying camera movement](example.gif)
+
 ---
 
 <!-- Features here soon-->
@@ -53,5 +55,5 @@ Git, CMake, C++20, OpenGL 4.6
 ---
 
 ## License
-This project is licensed under the MIT License. See the [`LICENSE`](LICENSE) file for details.
 
+This project is licensed under the MIT License. See the [`LICENSE`](LICENSE) file for details.
