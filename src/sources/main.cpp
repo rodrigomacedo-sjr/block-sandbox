@@ -67,7 +67,7 @@ int main() {
   glEnable(GL_DEPTH_TEST); // render from back to front
 
   // build and compile our shaders program
-  Shader ourShader("src/resources/shaders/shader.vs",
+  Shader shader("src/resources/shaders/shader.vs",
                    "src/resources/shaders/shader.fs");
 
   // set up vertex data (and buffer(s)) and configure vertex attributes
@@ -123,10 +123,10 @@ int main() {
 
   // TODO: improve this
   // load and create a texture
-  unsigned int texture1;
+  unsigned int texture;
 
-  glGenTextures(1, &texture1);
-  glBindTexture(GL_TEXTURE_2D, texture1);
+  glGenTextures(1, &texture);
+  glBindTexture(GL_TEXTURE_2D, texture);
   // set the texture wrapping parameters
   glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_REPEAT);
   // set texture filtering parameters
@@ -149,9 +149,9 @@ int main() {
   stbi_image_free(data);
 
   // tell opengl for each sampler to which texture unit it belongs to
-  ourShader.use();
-  glUniform1i(glGetUniformLocation(ourShader.ID, "texture1"), 0);
-  ourShader.setInt("texture1", 0);
+  shader.use();
+  glUniform1i(glGetUniformLocation(shader.ID, "texture"), 0);
+  shader.setInt("texture", 0);
 
   // render loop
   while (!glfwWindowShouldClose(window)) {
@@ -168,27 +168,27 @@ int main() {
 
     // bind texture on corresponding texture unit
     glActiveTexture(GL_TEXTURE0);
-    glBindTexture(GL_TEXTURE_2D, texture1);
+    glBindTexture(GL_TEXTURE_2D, texture);
 
     // render container
-    ourShader.use();
+    shader.use();
 
     // pass projection matrix to shader
     glm::mat4 projection =
         glm::perspective(glm::radians(camera.Zoom),
                          (float)SCR_WIDTH / (float)SCR_HEIGHT, 0.1f, 100.0f);
-    ourShader.setMat4("projection", projection);
+    shader.setMat4("projection", projection);
 
     // camera view transformation
     glm::mat4 view = camera.GetViewMatrix();
-    ourShader.setMat4("view", view);
+    shader.setMat4("view", view);
 
     // draw cubes
     glBindVertexArray(VAO);
     for (unsigned int i = 0; i < cubeQuant; i++) {
       glm::mat4 model = glm::mat4(1.0f);
       model = glm::translate(model, cubePositions[i]);
-      ourShader.setMat4("model", model);
+      shader.setMat4("model", model);
 
       glDrawArrays(GL_TRIANGLES, 0, 36);
     }
